@@ -1,0 +1,59 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+.container {
+  width: 265px;
+  height: 320px;
+  background-color: #fff;
+  border-radius: .5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container img {
+  width: 265px;
+  height: 140px;
+  border-radius: .5rem;
+}
+
+.country_name {
+  margin-left: 1rem;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+
+.country {
+  margin-left: 1rem;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .1rem;
+}
+
+.pagination li {
+  list-style: none;
+}
+
+.button_pagination {
+  border: none;
+  background-color: rgb(200, 200, 200);
+  width: 40px;
+  height: 30px;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .pagination {
+    padding-right: 1rem;
+  }
+}
