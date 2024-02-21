@@ -1,1 +1,1 @@
-# react-countries
+# Projeto Base com React + Vite + Tailwind CSS
