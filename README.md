@@ -8,6 +8,7 @@
 - HTML
 - CSS
 - React
+- Tailwind
 
 # :runner: Como executar o projeto
 
